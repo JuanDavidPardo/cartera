@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+.recibo-header{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 10px;
+	width: 500px;
+	display: block;
+	border-top: 5px #CC0000 solid;
+	border-bottom: 2px #CC0000 solid;
+	text-align: center;
+	color: #333;
+	}
+.recibo-escudo{
+	width: 25px;
+	height: 35px;
+	display: inline-block;
+	margin-left: 15px;
+	}
+.recibo-colegio{
+	position: relative;
+	top: 5px;
+	left: 10px;
+	width: 460px;
+	height: 35px;
+	display: inline-block;
+	}
+.recibo-cuerpo{
+	font-family: "Helvetica";
+	font-size: 10px;
+	margin-top: 2px;
+	display: block;
+	width: 500px;
+	border-top: 2px #000 solid;
+	border-bottom: 2px #000 solid;
+	}
+.recibo-caja-contenedor{
+	position: relative;
+	left: 2px;
+	display: inline-block;
+	border: #999 1px solid;
+	margin-top: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	}
+.recibo-caja-arriba{
+	font-weight: bold;
+	background-color: #E4E3E6;
+	border-bottom: 1px solid #000;
+	text-align:left;
+	}
+.recibo-caja-abajo{
+	text-transform: uppercase;
+	text-align: left;
+	}
+.recibo-fila{
+	display: block;
+	border:#FFF 1px solid;
+	}
+.recibo-division{
+	display: block;
+	width: 600px;
+	margin: 0 auto;
+	border-bottom: 1px dashed #999999;
+	height:20px;
+	margin-bottom: 20px;
+	}							
